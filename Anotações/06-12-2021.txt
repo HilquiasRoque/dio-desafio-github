@@ -1,0 +1,5 @@
+Resumo dos Conhecimentos adquiridos:
+- Como criar um repositório no GitHub.
+- Como clonar um repositório do GitHub para a máquina local
+- Como verificar o status do repositório local com o Git Bash
+- Como enviar as alterações no repositório local para o remoto (GitHub)
