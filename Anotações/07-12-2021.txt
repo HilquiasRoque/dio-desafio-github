@@ -1,0 +1,17 @@
+Resumo dos Conhecimentos do dia.
+
+- No Visual Studio um breackpoint é uma marcação colocada no código para que
+seja possível examinar o que está acontecendo no exato ponto marcado. Para
+adicionar um breackpoint, clica-se na linha do código e pressiona-se F9. Uma
+bolinha vermelha aparecerá no lado esquerdo da linha marcada indicando o break-
+point. Ao executar o código, este será pausado no ponto marcado para análise
+das informações. Detalhe: o código A PARTIR da linha marcada não será executado
+até que se pressione o botão 'continuar' na interface do VS ou no teclado F10 para
+continuar executando linha por linha a cada vez que apertamos esse botão até o
+fim do programa.
+
+- É possível criar ou clonar repositórios no GitHub diretamente através da
+interface do VS.
+
+- Há uma opção no VS que permite criar um teste para os métodos. Mas vou deixar
+pra estudar isso melhor em outro dia :)
