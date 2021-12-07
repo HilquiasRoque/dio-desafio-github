@@ -1,5 +1,32 @@
-Resumo dos Conhecimentos adquiridos:
-- Como criar um repositório no GitHub.
-- Como clonar um repositório do GitHub para a máquina local
-- Como verificar o status do repositório local com o Git Bash
-- Como enviar as alterações no repositório local para o remoto (GitHub)
+Resumo dos Conhecimentos adquiridos no dia.
+
+- Como criar um repositório no GitHub:
+>>> Com a conta logada, clicar em +, depois 'new repository'.
+__________________________________________________________________________________
+
+- Como clonar um repositório do GitHub para a máquina local:
+>>> Na página do repositório, clicar no botão verde 'Code' e copiar uma
+das opções. Depois, na pasta desejada para o repositório local, abrir o
+terminal do Git Bash e usar o comando: git clone <link escolhido>.
+__________________________________________________________________________________
+
+- Como verificar o status do repositório local com o Git Bash:
+>>> No terminal do Git Bash, dentro da pasta do repositório, usar comando
+git status.
+__________________________________________________________________________________
+
+- Como adicionar o novo arquivo ao repositório (permitir que o Git o 'enxergue'):
+>>> No terminal do Git Bash, dentro da pasta do repositório, usar o comando
+git add . (o espaço entre o add e o ponto indica que você quer adicionar 
+tudo que é novo na pasta)
+__________________________________________________________________________________
+
+- Como deixar as alterações no repertório aptas ao versionamento:
+>>> No terminal do Git Bash, dentro da pasta do repositório, usar o comando
+git commit -m "<texto do commit>"
+__________________________________________________________________________________
+
+- Como enviar as alterações no repositório local para o remoto (GitHub):
+>>> No terminal do Git Bash, dentro da pasta do repositório com os arquivos
+que foram alterados, usar o comando> git push origin main.
+__________________________________________________________________________________
