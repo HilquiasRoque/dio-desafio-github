@@ -1,0 +1,27 @@
+Resumo dos conhecimentos do dia
+
+- O padrão de testes AAA está organizado da seguinte forma:
+Arrange > Preparar o teste
+Act     > Rodar o teste
+Assert  > Comparar resultados
+
+- Para criar um teste de unidade no VS clica-se na classe com botão direito na
+classe desejada (que precisa ser public) e seleciona-se a opção 'Criar Teste de 
+Unidade'. O VS criará umprojeto contendo para testar os métodos da classe 
+selecionada. Este projeto contém um esqueleto que precisa ser completado pelo 
+testador, que pode usar o padrão AAA na escrita do teste.
+
+>>> Na etapa ARRANGE cria-se o ambiente para o teste com a inicialização das 
+variáveis necessárias sendo uma delas contendo o valor esperado, sem esquecer de
+criar uma instância para a classe utilizada.
+
+>>> Na etapa ACT você cria uma variável que irá guardar o resultado do método que
+será testado.
+
+>>> Na etapa ASSERT você chama o método Assert.AreEqual(<esperado>, <resultado>)
+que fará a comparação do resultado esperado com o testado.
+
+- Com tudo pronto, basta clicar no menu 'Teste' e selecionar 'Executar Todos os
+Testes'. O VS vai abrir uma janela, o Gerenciador de Testes, exibindo o resultado
+de cada teste, se houver mais de um. Marcações verdes indica que os métodos 
+passaram no teste. Marcações vermelhas indicam que o método falhou.
