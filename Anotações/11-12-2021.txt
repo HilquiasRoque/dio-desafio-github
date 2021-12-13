@@ -1,0 +1,27 @@
+Resumo dos conteúdos do dia
+
+- O que é POO(Programação Orientada a Objetos)?
+>>> É um paradigma(metodologia, modo de fazer) de programação, que tenta aproximar
+o código da vida real.
+
+- Diferença entre Classe e Objeto.
+>>> Classe - Contém os atributos e ações que um objeto pode ter.
+>>> Objeto - É a entidade que atribui informações aos atributos e ações que a sua
+classe permite.
+OBS - Uma classe não é um objeto. Não há objeto sem classe, mas há classe sem
+objeto.
+
+- Pilares da POO
+>>> Abstração - Capacidade de abstrair algo da vida real para o código de programação.
+Na abstração cria-se uma representação aproximada de um objeto com as informações
+mais importantes dele, criando-se assim a classe do objeto.
+>>> Encapsulamento - É a propriedade que permite definir o que pode ou não ser
+acessado e como esse acesso deve ser feito. Previne alterações diretamente no 
+código que podem ser indevidas (como trapaças) dependendo do tipo de programa.
+>>> Herança - Essa propriedade permite que uma classe filha herde atributos e métodos
+de uma classe pai. A classe filha pode ter novos atributos que não estão presentes
+na classe pai.
+>>> Polimorfismo - Permite que a classe filha altere um método da classe pai para
+que se comporte de forma específica, ou seja, de acordo com a necessidade da classe
+filha. O polimorfismo pode ser em tempo de compilação (usando sobrecargas) ou em
+tempo de execução (usando override).

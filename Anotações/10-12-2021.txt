@@ -1,0 +1,9 @@
+Resumo dos conteúdos do dia
+
+- O que é um namespace?
+>>> É um contêiner que o .NET usa para organizar suas classes e facilitar a
+digitação do código pelo programador.
+
+- O que é uma interface no C#?
+>>> É um tipo especial de classe que ao ser instanciada, exige a implementação
+de todos os seus métodos.

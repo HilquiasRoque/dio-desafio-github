@@ -1,0 +1,26 @@
+Resumo dos estudos do dia
+
+- O que são Classes Abstratas?
+>>> É um tipo de classe especial que serve para ser herdada por outras classes e
+não pode ser instanciada. Ela é exclusivamente criada para que outra classe a 
+herde. Pode ter métodos abstratos devem ser alterados por polimorfismo na classe
+que o herdará.
+
+- O que são Classes Seladas?
+>>> Assim como as classes abstratas, a classe selada é outro tipo especial de 
+classe, porém, diferentemente de uma abstrata, as seladas não permitem que seus
+métodos e propriedades sejam herdadas por outras. Esta classe não pode ter classes
+filhas (estéril?). É possível que existam métodos e propriedades seladas, que não
+permitem polimorfismo.
+
+- O que é uma Classe Object em .NET?
+>>> É a classe pai de todas as outras classes existentes no framework do .NET e
+todas as classes criadas pelo programador irão herdar dessa classe. Esta é a classe
+System.object.
+
+- O que é uma Interface em .NET?
+>>> Semelhantemente a uma classe abstrata, uma interface não pode ser instanciada.
+Uma classe só pode herdar de apenas uma classe pai, mas é possível que uma classe
+tenha mais de uma interface. Ao ser usada, a interface exige que seus métodos e 
+propriedades sejam implementadas na classe que está a usando, caso estes métodos
+não tenham uma implementação padrão já na interface.
