@@ -1,0 +1,52 @@
+Resumo dos estudos do dia
+
+- Coleções Genéricas
+>>> São muito semelhantes às arrays, porém a sua manipulação é muito mais fácil,
+já que não é necessário se preocupar com tantas nuances presentes nas arrays.
+Uma array ao ser declarada precisa ter seu tamanho definido, mas uma lista não
+precisa se preocupar com isso, pois essa classe pode abstrair isto por nós.
+
+>>> Uma lista é declarada da seguinte forma:
+List<tipo> nomedalista = new List<tipo>();
+
+>>> Você pode adicionar quantos elementos quiser. A iteração é do mesmo jeito que
+nas arrays e existem vários métodos internos da classe List para manusear uma lista.
+
+- Coleções Específicas
+>>> Queue (fila), obedece a ordem FIFO, primeiro a entrar é o primeiro a sair.
+>>> Stack (pilha), obedece a ordem LIFO, último a entrar é o primeiro que sai.
+
+>>> Declaração de uma queue e uma stack:
+Queue<tipo> nomedafila = new Queue<tipo>();
+Stack<tipo> nomedafila = new Stack<tipo>();
+
+>>> Ambas as filas tem suas classes com métodos próprios que facilitam o manuseio
+delas.
+
+- Dicionários
+>>> É um tipo de coleção que guarda os valores em formato de {chave, valor}. Cada
+chave tem que ser única e após declarar o tipo das chaves e dos valores, não é 
+possível alterar isso. Para acessar os valores, é necessário informar a chave. O
+mesmo deve ser feito para atualizar e remover valores do dicionário.
+
+- LINQ
+>>> Language-Integrated Query é uma maneira de utilizar sintaxe de consulta 
+padronizada para coleções de objeto. Essa linguagem tem duas sintaxes: a de query,
+que lembra o SQL e a de método, que pode ser feita em uma linha.
+
+- Microsserviços e monolitos
+>>> Monolitos são como um único bloco simples que são rápidos e fáceis de iniciar
+tem uma infraestrutura simples e o debug é rápido. Apresenta problemas com multi-
+plas conexões simultâneas, deploys longos e pesados, baixa escalabilidade.
+
+- Escalabilidades
+>>> A escalabilidade vertical, visa turbinar o servidor com mais componentes
+físicos para que consiga lidar com o aumento de conexões, porém, com o passar do
+tempo, essa alternativa torna-se de altíssimo custo. Já a escalabilidade
+horizontal visa a criação de mais servidores com o objetivo de dividir a carga
+de conexões entre eles, mas aí você acaba escalando o problema, pois vai ter
+vários monolitos para cuidar.
+
+>> É mais viável trabalhar com microsserviços em escalabilidade horizontal, pois
+você pode escalar o microserviço que está com maior demanda, reduzindo custos e
+mão de obra. MS devem ter tratamento isolado às falhas.

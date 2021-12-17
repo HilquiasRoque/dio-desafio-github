@@ -1,0 +1,26 @@
+Resumo dos estudos do dia
+
+- Arrays
+>>> São variáveis com capacidade de guardar mais de um valor, todos do mesmo tipo,
+que podem ser acessados passando a posição deste valor na array. É uma coleção de
+itens, uma lista. A primeira posição começa em 0 (zero) que também é chamado de
+índice. Ao declarar uma array com um tamanho, não é possível mudar. Também é 
+possível criar uma array com mais de uma dimensão, com linhas e colunas, mais 
+conhecida como matriz. Para acessar uma array multidimensional, é preciso 
+informar dois índices, por exemplo.
+
+- Percorrendo Arrays
+>>> Para percorrer uma array, usa-se um laço de repetição. Este laço deve ter um
+contador, que irá marcar a vez em que foi executado tendo o seu valor incrementado
+logo em seguida. Este contador irá indicar o índice da array para que seja 
+possível localizar a posição do valor que se deseja manipular. No caso de uma
+matriz, será necessário dois laços, um para as linhas e outro para percorrer as
+colunas.
+
+- Ordenando Arrays
+>>> Existem algoritmos prontos na classe Array do .NET que servem para ordenar os
+elementos de uma array. Dependendo de quantos elementos existem na array e do quão
+desordenada ela está, haverá um algoritmo ideal para essa ordenação.
+-> O bobble sort irá comparar cada elemento com o seu próximo. Se o próximo for
+maior que o elemento atual, então o algoritmo troca suas posições. Ele continuará
+verificando até que toda a array esteja ordenada.

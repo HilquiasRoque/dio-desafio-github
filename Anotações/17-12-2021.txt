@@ -1,0 +1,20 @@
+Resumo dos estudos do dia!
+
+-Design Patterns com .NET
+>>> Imagine que você está desenvolvendo um sofware e encontra um problema. Mais
+tarde você trabalha em outro projeto e se depara com o mesmo problema. Isso é comum
+no desenvolvimento de software e por isso, soluções já testadas e aprovadas são
+catalogadas para que você não precise fabricar a mesma solução de novo.
+
+- Padrões Hands On
+> Singleton - uma única instancia de classe e acesso global para ela, centralizando
+os recursos compartilhados.
+> Repository - intermedia o domínio e sua camada de dados, isolando o acesso a essa
+camada.
+> Facade - simplifica a utilização de subsistemas complexos.
+
+- Coisas que eu não entendi:
+> O que é RideSharing
+> O que é Swagger
+> O que é InMemoryRepository
+> O que é Entity Framework

@@ -1,0 +1,51 @@
+Resumo do dia
+
+- O que é um método construtor?
+>>> É um método especial que não tem retorno e que possui o mesmo nome da classe
+em que está. Este construtor dá mais controle na instanciação da classe. Ao ser 
+implementado, o construtor pode ou não ter parâmetros, isso fará com que o objeto,
+ao ser instanciado, já seja inicializado com os valores definidos na hora da
+instânciação ou sem valores(construtor padrão). Quando o construtor é herdado em
+outra classe, o construtor da classe filha deve ter os mesmos valores do construtor
+da classe pai. Ex.:
+
+public class ClasseFilha : ClassePai
+{
+	public ClasseFilha(<parâmetros herdados + novos opcional>) : base(<parâmetros herdados>)
+	{
+		faz alguma coisa;
+	}
+}
+
+- Getters e Setters
+>>> Imagine que você cria um cadastro e precisa que o usuário informe o mês do seu
+nascimento em forma de números. Sabemos que os meses do ano vão de 1 a 12. Se a
+propriedade dessa classe do cadastro for pública, então qualquer número que o 
+usuário digitar será aceito. Para evitar isso, podemos criar uma validação dessa
+entrada usando o get e set. Com a propriedade privada, o método get vai receber o
+valor digitado e armazená-lo. O método set pode validar esse dado permitindo ou
+não que o número digitado seja atribuído à propriedade privada do mês na classe
+em questão. Dessa forma, fica mais fácil ter controle sobre os valores que são
+atribuídos às propriedades de uma classe.
+É possível unificar o get e o set na propriedade.
+
+- Modificador readonly
+>>> Este modificador permite alterações num campo apenas quando é inicializado
+(valor da variável é indicado) ou dentro do método construtor. Qualquer outra
+forma de alterar o valor de um campo além dos citados acima não irão funcionar.
+
+- Constantes
+>>> Ao contrário de uma variável, que pode ter seus valores alterados durante a
+execução do código, uma constante, após ser declarada, não pode ter seu valor
+alterado em nenhum outro momento da execução do código. Não é possível declarar
+uma constante sem um valor.
+
+- Delegates
+>>> O delegate é mais complicado de entender... Acho que é algo do tipo você
+atribuir a ao contrutor delegate as atribuições de um método em uma classe para
+que possa invocá-lo dentro do main indiretamente. É possível atribuir mais de um
+método para um contrutor delegate, fazendo assim um Multi Cast Delegate, que irá
+executar os métodos em ordem FIFO (1º a entrar é o 1º a sair).
+
+- Eventos
+>>> Preciso revisar! Não consegui entender!
